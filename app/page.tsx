@@ -6,12 +6,14 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
-import Cards from "@/components/card";
+import Homes from "@/page/home";
+
+
 
 export default function Home() {
 	return (
 		<>
-		<Cards />
+		<Homes />
 		</>
 	);
 }

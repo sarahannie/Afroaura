@@ -1,7 +1,6 @@
 import "@/styles/globals.css";
 import { Metadata } from "next";
-
-import Script from 'next/script'
+import { useEffect } from "react";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
@@ -45,12 +44,13 @@ export default function RootLayout({
 					<div className="relative flex flex-col h-screen">
 						<Navbar />
 						<NavbarMain />
-						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+						<main className="container mx-auto max-w-7xl  flex-grow">
 							{children}
 						</main>
 						
 					</div>
 				</Providers>
+				
 			</body>
 		</html>
 	);

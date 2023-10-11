@@ -74,7 +74,7 @@ export default function NavbarMain() {
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-blue-600 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  href="#"
                 >
                   <span>Shop</span>
                 </a>
@@ -85,7 +85,7 @@ export default function NavbarMain() {
                   aria-current="page"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 text-blue-800 transition-colors duration-300 hover:text-blue-600 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  href="#"
                 >
                   <span>Account</span>
                 </a>
@@ -95,7 +95,7 @@ export default function NavbarMain() {
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-blue-600 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  href="#"
                 >
                   <span>Wishlist</span>
                 </a>
