@@ -4,6 +4,7 @@ import Banner from "@/components/banner";
 import FeatureProduct from "@/components/featureProduct";
 import Category from "@/components/category";
 import TopAd from "@/components/topAd";
+import Brand  from "@/components/brand";
 const Home = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const Home = () => {
     <FeatureProduct />
     <Category />
     <TopAd />
+    <Brand />
 		<Cards />
 		
     </>
