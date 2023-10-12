@@ -3,10 +3,11 @@ import React from 'react'
 import {FaStar} from 'react-icons/fa'
 
 const FeatureProduct = () => {
+  
   return (
     <>
   <section className="text-gray-600 body-font">
-  <div className="container px-18 pt-10 pb-10 mx-auto justify-center">
+  <div className="container px-18 pt-1 pb-10 mx-auto justify-center">
   <div className="flex flex-wrap  justify-between  mb-8">
   <h3 className="ml-10 text-3xl font-bold leading-none md:text-3xl">
     Feature Products
@@ -132,8 +133,6 @@ const FeatureProduct = () => {
      <span><del>$3,900.00</del></span>
      </div>
      <div><span className="ml-2 text-gray-600 text-sm">34 reviews</span></div>
-    
-     
    </div>
    <div className="mt-2 flex ">
      <span className=" flex text-[#020d24] font-semibold ">
@@ -149,6 +148,7 @@ const FeatureProduct = () => {
    </div>
  </div>
    </div>
+
     <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
  
  <img
