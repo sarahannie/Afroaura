@@ -8,6 +8,7 @@ import { Navbar } from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import NavbarMain  from "@/components/navbarmain";
 import clsx from "clsx";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export const metadata: Metadata = {
 	title: {

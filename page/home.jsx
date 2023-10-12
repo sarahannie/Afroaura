@@ -5,9 +5,10 @@ import FeatureProduct from "@/components/featureProduct";
 const Home = () => {
   return (
     <>
-        <Banner/>
+    <Banner/>
+    <FeatureProduct />
 		<Cards />
-		{/* <FeatureProduct /> */}
+		
     </>
   )
 }
