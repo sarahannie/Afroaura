@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image'
 import React from 'react'
 import {FaStar} from 'react-icons/fa'
@@ -26,7 +27,9 @@ const FeatureProduct = () => {
       
     <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
  
- <img
+ <Image
+ width={30}
+ height={30}
    className="h-48 w-full object-cover object-end"
    src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
    alt="Home in Countryside"
@@ -68,7 +71,9 @@ const FeatureProduct = () => {
    </div>
     <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
  
- <img
+ <Image
+ width={30}
+ height={30}
    className="h-48 w-full object-cover object-end"
    src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
    alt="Home in Countryside"
@@ -110,7 +115,9 @@ const FeatureProduct = () => {
    </div>
     <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
  
- <img
+ <Image
+ width={30}
+ height={30}
    className="h-48 w-full object-cover object-end"
    src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
    alt="Home in Countryside"
@@ -151,7 +158,9 @@ const FeatureProduct = () => {
 
     <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
  
- <img
+ <Image
+ width={30}
+ height={30}
    className="h-48 w-full object-cover object-end"
    src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
    alt="Home in Countryside"
