@@ -64,7 +64,7 @@ const FeatureProduct = () => {
          <FaStar />
          <FaStar /> 
        </span>
-       <span className="block bg-primary ml-[60px] rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart</span>
+       <span className="block bg-primary ml-[50px] rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart</span>
        </span>
    </div>
  </div>
@@ -108,7 +108,7 @@ const FeatureProduct = () => {
          <FaStar />
          <FaStar /> 
        </span>
-       <span className="block bg-primary ml-[60px] rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart</span>
+       <span className="block bg-primary ml-[50px] rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart</span>
        </span>
    </div>
  </div>
@@ -150,7 +150,7 @@ const FeatureProduct = () => {
          <FaStar />
          <FaStar /> 
        </span>
-       <span className="block bg-primary ml-[60px] rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart</span>
+       <span className="block bg-primary ml-[50px] rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart</span>
        </span>
    </div>
  </div>
@@ -195,7 +195,7 @@ const FeatureProduct = () => {
          <FaStar />
          <FaStar /> 
        </span>
-       <span className="block bg-primary ml-[60px] rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart</span>
+       <span className="block bg-primary ml-[50px] rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart</span>
        </span>
    </div>
  </div>

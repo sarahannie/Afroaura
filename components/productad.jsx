@@ -6,9 +6,9 @@ function Productad() {
   return (
     <div>
     <div className='bg-primary'>
-   <main className="dark:bg-gray-800 bg-white relative overflow-hidden h-screen">
-    <div className="bg-white dark:bg-gray-800 flex relative z-20 items-center overflow-hidden">
-    <div className="container mr-[12px] px-6 flex relative py-16">
+   <main className="dark:bg-black bg-white relative overflow-hidden h-screen">
+    <div className="bg-white dark:bg-gray-800 flex ml-[5rem] mr-[5rem] mt-[2rem] bg-white border border-gray relative z-20 overflow-hidden">
+    <div className="container  px-6 flex relative py-6">
       <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
         <span className="w-20 h-2 bg-gray-800 dark:bg-white mb-12"></span>
         <h1 className="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-gray-800">

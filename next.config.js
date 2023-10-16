@@ -5,7 +5,7 @@ const nextConfig = {
         return config;
       },
       images: {
-        domains: ['images.unsplash.com', "images.pexels.com"],
+        domains: ['images.unsplash.com', "images.pexels.com","www.tailwind-kit.com"],
       }
 }
 
