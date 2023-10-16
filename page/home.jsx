@@ -6,6 +6,16 @@ import Category from "@/components/category";
 import TopAd from "@/components/topAd";
 // import Brand  from "@/components/brand";
 import Productad  from "@/components/productad";
+import Product from "@/components/product";
+import KidCategory from "@/components/kidCategory";
+import KidSale from "@/components/kidsale";
+import WomenCategory from "@/components/womenCategory";
+import WomenSale from "@/components/womensale";
+import Featured from "@/components/featured";
+import MenCategory from "@/components/menCategory";
+import MenSale from "@/components/mensale";
+import Footer from "@/components/footer";
+import Newletter from "@/components/newletter";
 const Home = () => {
   return (
     <>
@@ -15,6 +25,16 @@ const Home = () => {
     <TopAd />
     {/* <Brand /> */}
 		<Productad />
+    <Product />
+    <KidCategory />
+    <KidSale />
+    <WomenCategory />
+    <WomenSale />
+    <Featured />
+    <MenCategory/>
+    <MenSale />
+    <Newletter />
+    <Footer />
     </>
   )
 }

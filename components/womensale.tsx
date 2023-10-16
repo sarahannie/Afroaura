@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import {FaStar} from 'react-icons/fa'
 
-const FeatureProduct = () => {
+const WomenSale = () => {
   
   return (
     <>
@@ -11,7 +11,7 @@ const FeatureProduct = () => {
   <div className="container px-18 pt-1 pb-10 mx-auto justify-center">
   <div className="flex flex-wrap  justify-between  mb-8">
   <h3 className="ml-10 text-3xl font-bold leading-none md:text-3xl">
-    Feature Products
+    Best Women&apos;s Sale
   </h3>
   <a
     href="#"
@@ -211,4 +211,4 @@ const FeatureProduct = () => {
   )
 }
 
-export default FeatureProduct
+export default WomenSale;
