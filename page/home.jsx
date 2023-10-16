@@ -5,7 +5,7 @@ import FeatureProduct from "@/components/featureProduct";
 import Category from "@/components/category";
 import TopAd from "@/components/topAd";
 // import Brand  from "@/components/brand";
-import Productad  from "@/components/Productad";
+import Productad  from "@/components/productad";
 const Home = () => {
   return (
     <>
