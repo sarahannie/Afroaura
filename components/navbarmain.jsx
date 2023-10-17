@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image"
-import React, { useState } from "react"
+import React, { useState } from "react";
 import style from "./navbarmain.module.css";
 import {MdOutlineFavorite} from 'react-icons/md'
 
@@ -109,7 +109,6 @@ export default function NavbarMain() {
                 className="relative inline-flex h-10 w-10 items-center justify-center rounded-full text-lg text-blue-600"
               >
                  <MdOutlineFavorite />
-               
                 
               </a>
               <a
@@ -143,6 +142,7 @@ export default function NavbarMain() {
         </div>
       </header>
       {/*<!-- End Navbar with Topbar--> */}
+      
     </>
   )
 }
