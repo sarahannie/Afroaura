@@ -53,7 +53,7 @@ const Category = () => {
       Category
     </h3>
     </div>
-    <div className="gap-2 grid grid-cols-2 sm:grid-cols-4 pt-1 px-6 justify-center gap-12">
+    <div className="gap-2 grid grid-cols-1 sm:grid-cols-4 pt-1 px-6 justify-center gap-12">
     {list.map((item, index) => (
         <Card shadow="sm" key={index} isPressable onPress={() => console.log("item pressed")}>
           <CardBody className="overflow-visible p-0 ">
