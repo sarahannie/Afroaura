@@ -8,14 +8,14 @@ export default function Banner() {
   return (
     
     <Carousel autoPlay showStatus={false} showArrows={false}  className={style.ban} showIndicators={false} showThumbs={false}  dynamicHeight={false}  >
-        <div>
-        <header className={"block overflow-hidden bg-[#020d24] bg-cover bg-center "} style={{backgroundImage: "url('https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg')"}}>
+  <div>
+  <header className={"block overflow-hidden bg-[#020d24] bg-cover bg-center "} >
   {/* <!-- Container --> */}
   <div className={"mx-auto  w-full max-w-7xl px-5 py-2 md:px-10 md:py-24 lg:py-7"}>
     {/* <!-- Component --> */}
     <div className={"grid grid-cols-1 items-center gap-8 md:gap-16 lg:grid-cols-2 lg:gap-24"}>
       {/* <!-- Hero Heading --> */}
-      <div className={"flex flex-col items-start"}>
+      <div className={"flex flex-col  item-center"}>
         <div className={"mb-5"}>
           <h1 className={"text-4xl font-bold text-white md:text-6xl"}>Fashion Speaks...</h1>
         </div>
@@ -25,7 +25,7 @@ export default function Banner() {
           </div>
         </div>
         {/* <!-- Button Wrap --> */}
-        <div className="flex flex-wrap items-center gap-4">
+        <div className="flex flex-wrap items-center justify-center gap-4">
           <a href="#" className="rounded-[60px] bg-[#2d6ae0] px-6 py-4 text-center font-bold text-white transition hover:bg-[#081631]">Get Started</a>
           <a href="#" className="flex flex-row items-center rounded-[60px] bg-[#081631] px-6 py-4 font-bold text-white">
             <div className="mr-2 flex w-5 flex-col items-center">
@@ -45,9 +45,9 @@ export default function Banner() {
         </div>
       
         <div>
-        <header className="block overflow-hidden bg-[#020d24] bg-cover bg-center" style={{backgroundImage: "url('https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg')"}}>
+        <header className="block overflow-hidden bg-[#020d24] bg-cover bg-center" >
   {/* <!-- Container --> */}
-  <div className="mx-auto w-full max-w-7xl px-5 py-2 md:px-10 md:py-24 lg:py-7">
+  <div className="mx-auto w-full max-w-7xl px-5 py-2 md:px-10 md:py-14 lg:py-5">
     {/* <!-- Component --> */}
     <section className="px-3 py-1  lg:py-1">
   <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
@@ -59,9 +59,9 @@ export default function Banner() {
         Shop Now
       </button>
     </div>
-    <div className="order-1 lg:order-2">
-      <Image width={500} height={500}
-        className="h-80 w-80 object-cover lg:w-[650px] lg:h-[450px]"
+    <div className="order-2 lg:order-2">
+      <Image width={800} height={500}
+        className="h-80 w-80  lg:w-[850px] lg:h-[450px] inline-block "
         src="/img/hder.png"
         alt=""
       />
@@ -79,7 +79,7 @@ export default function Banner() {
     {/* <!-- Component --> */}
     <div className="grid grid-cols-1 items-center gap-8 md:gap-16 lg:grid-cols-2 lg:gap-24">
       {/* <!-- Hero Heading --> */}
-      <div className="flex flex-col items-start">
+      <div className="flex flex-col  item-center">
         <div className="mb-5">
           <h1 className="text-4xl font-bold text-white md:text-6xl"> Let Be your Plug</h1>
         </div>
@@ -89,7 +89,7 @@ export default function Banner() {
           </div>
         </div>
         {/* <!-- Button Wrap --> */}
-        <div className="flex flex-wrap items-center gap-4">
+        <div className="flex flex-wrap items-center justify-center gap-4">
           <a href="#" className="rounded-[60px] bg-[#2d6ae0] px-6 py-4 text-center font-bold text-white transition hover:bg-[#081631]">Get Started</a>
           <a href="#" className="flex flex-row items-center rounded-[60px] bg-[#081631] px-6 py-4 font-bold text-white">
             <div className="mr-2 flex w-5 flex-col items-center">
@@ -109,15 +109,15 @@ export default function Banner() {
         </div>
 
         <div>
-        <header className="block overflow-hidden bg-[#020d24] bg-cover bg-center" style={{backgroundImage: "url('https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg')"}}>
+        <header className="block overflow-hidden bg-[#020d24] bg-cover bg-center"  >
   {/* <!-- Container --> */}
   <div className="mx-auto w-full max-w-7xl px-5 py-1 md:px-10 md:py-24 lg:py-7">
     {/* <!-- Component --> */}
     <div className="grid grid-cols-1 items-center gap-8 md:gap-16 lg:grid-cols-2 lg:gap-24">
       {/* <!-- Hero Heading --> */}
-      <div className="flex flex-col items-start">
+      <div className="flex flex-col item-center">
         <div className="mb-5">
-          <h1 className="text-4xl font-bold text-white md:text-6xl">Fashion Market</h1>
+          <h1 className="text-4xl font-bold text-white  md:text-6xl">Fashion Market</h1>
         </div>
         <div className="mb-7">
           <div className="mx-auto w-full max-w-lg">
@@ -125,7 +125,7 @@ export default function Banner() {
           </div>
         </div>
         {/* <!-- Button Wrap --> */}
-        <div className="flex flex-wrap items-center gap-4">
+        <div className="flex flex-wrap item-center justify-center gap-4">
           <a href="#" className="rounded-[60px] bg-[#2d6ae0] px-6 py-4 text-center font-bold text-white transition hover:bg-[#081631]">Get Started</a>
           <a href="#" className="flex flex-row items-center rounded-[60px] bg-[#081631] px-6 py-4 font-bold text-white">
             <div className="mr-2 flex w-5 flex-col items-center">
