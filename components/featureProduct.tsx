@@ -8,7 +8,7 @@ const FeatureProduct = () => {
   return (
     <>
   <section className="text-gray-600 body-font">
-  <div className="container px-18 pt-9 pb-10 mx-auto justify-center">
+  <div className="container px-18 lg:pt-9 pt-5 pb-10 mx-auto justify-center">
   <div className="flex flex-wrap  justify-between  mb-8">
   <h3 className="lg:ml-10 lg:text-3xl font-bold leading-none pt-3  text-2xl">
     Feature Products
