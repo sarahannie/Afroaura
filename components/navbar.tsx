@@ -51,10 +51,10 @@ export const Navbar = () => {
       </div>
       <div className={style.btn}>
         <ThemeSwitch />
-        <Button color="primary" radius="none" variant="solid">
+        <Button className='bg-[#7f0577] text-white' radius="none" variant="solid">
           Signup
         </Button>
-        <Button color="primary" radius="none" variant="bordered" className='hidden lg:block'>
+        <Button  radius="none" variant="bordered" className='hidden lg:block border-[#7f0577] text-[#7f0577]'>
           Join Us
         </Button>
       </div>

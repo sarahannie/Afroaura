@@ -9,7 +9,7 @@ export default function Banner() {
     
     <Carousel autoPlay showStatus={false} showArrows={false}  className={style.ban} showIndicators={false} showThumbs={false}  dynamicHeight={false}  >
   <div>
-  <header className={"block overflow-hidden bg-[#020d24] bg-cover bg-center "} >
+  <header className={"block overflow-hidden bg-blue bg-cover bg-center "} >
   {/* <!-- Container --> */}
   <div className={"mx-auto  w-full max-w-7xl px-5 py-2 md:px-10 md:py-24 lg:py-7"}>
     {/* <!-- Component --> */}
@@ -21,13 +21,13 @@ export default function Banner() {
         </div>
         <div className="mb-7">
           <div className="mx-auto w-full max-w-lg">
-            <p className="text-[#7c8aaa]">Afroaura gives the best and latest fashion when it comes to clothing. </p>
+            <p className="text-white">Afroaura gives the best and latest fashion when it comes to clothing. </p>
           </div>
         </div>
         {/* <!-- Button Wrap --> */}
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <a href="#" className="rounded-[60px] bg-[#2d6ae0] px-6 py-4 text-center font-bold text-white transition hover:bg-[#081631]">Get Started</a>
-          <a href="#" className="flex flex-row items-center rounded-[60px] bg-[#081631] px-6 py-4 font-bold text-white">
+          <a href="#" className="rounded-[60px] bg-white px-6 py-4 text-center font-bold text-[#7f0577] transition hover:bg-[#081631]">Get Started</a>
+          <a href="#" className="flex flex-row items-center rounded-[60px] bg-violent px-6 py-4 font-bold text-white">
             <div className="mr-2 flex w-5 flex-col items-center">
               <FcBarChart />
             </div>
@@ -45,17 +45,17 @@ export default function Banner() {
         </div>
       
         <div>
-        <header className="block overflow-hidden bg-[#020d24] bg-cover bg-center" >
+        <header className="block overflow-hidden bg-blue bg-cover bg-center" >
   {/* <!-- Container --> */}
   <div className="mx-auto w-full max-w-7xl px-5 py-2 md:px-10 md:py-14 lg:py-5">
     {/* <!-- Component --> */}
     <section className="px-3 py-1  lg:py-1">
   <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
-    <div className="order-2 lg:order-1 flex flex-col justify-center items-center">
+    <div className="order-2 lg:order-1 flex flex-col text-white justify-center items-center">
       <p className="text-4xl font-bold md:text-7xl text-orange-600">25% OFF</p>
       <p className="text-4xl text-neutral-100 font-bold md:text-7xl">SUMMER SALE</p>
       <p className="mt-2 text-sm text-neutral-100 md:text-lg">For limited time only!</p>
-      <button className="text-lg md:text-2xl bg-[#2d6ae0] text-white py-2 px-5 mt-10 hover:bg-zinc-800">
+      <button className="text-lg md:text-2xl bg-white text-blue py-2 px-5 mt-10 hover:bg-zinc-800">
         Shop Now
       </button>
     </div>
@@ -73,7 +73,7 @@ export default function Banner() {
         </div>
 
         <div>
-        <header className="block overflow-hidden bg-[#020d24] bg-cover bg-center" style={{backgroundImage: "url('https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg')"}}>
+        <header className="block overflow-hidden bg-blue bg-cover bg-center" style={{backgroundImage: "url('https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg')"}}>
   {/* <!-- Container --> */}
   <div className="mx-auto w-full max-w-7xl px-5 py-2 md:px-10 md:py-24 lg:py-7">
     {/* <!-- Component --> */}
@@ -85,13 +85,13 @@ export default function Banner() {
         </div>
         <div className="mb-7">
           <div className="mx-auto w-full max-w-lg">
-            <p className="text-[#7c8aaa]">Afroaura gives the best and latest fashion when it comes to clothing. </p>
+            <p className="text-white">Afroaura gives the best and latest fashion when it comes to clothing. </p>
           </div>
         </div>
         {/* <!-- Button Wrap --> */}
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <a href="#" className="rounded-[60px] bg-[#2d6ae0] px-6 py-4 text-center font-bold text-white transition hover:bg-[#081631]">Get Started</a>
-          <a href="#" className="flex flex-row items-center rounded-[60px] bg-[#081631] px-6 py-4 font-bold text-white">
+          <a href="#" className="rounded-[60px] bg-white px-6 py-4 text-center font-bold text-blue transition hover:bg-[#081631]">Get Started</a>
+          <a href="#" className="flex flex-row items-center rounded-[60px] bg-violent px-6 py-4 font-bold text-white">
             <div className="mr-2 flex w-5 flex-col items-center">
               <FcBarChart />
             </div>
@@ -109,7 +109,7 @@ export default function Banner() {
         </div>
 
         <div>
-        <header className="block overflow-hidden bg-[#020d24] bg-cover bg-center"  >
+        <header className="block overflow-hidden bg-blue bg-cover bg-center"  >
   {/* <!-- Container --> */}
   <div className="mx-auto w-full max-w-7xl px-5 py-1 md:px-10 md:py-24 lg:py-7">
     {/* <!-- Component --> */}
@@ -121,13 +121,13 @@ export default function Banner() {
         </div>
         <div className="mb-7">
           <div className="mx-auto w-full max-w-lg">
-            <p className="text-[#7c8aaa]">Afroaura gives the best and latest fashion when it comes to clothing. </p>
+            <p className="text-white">Afroaura gives the best and latest fashion when it comes to clothing. </p>
           </div>
         </div>
         {/* <!-- Button Wrap --> */}
         <div className="flex flex-wrap item-center justify-center gap-4">
-          <a href="#" className="rounded-[60px] bg-[#2d6ae0] px-6 py-4 text-center font-bold text-white transition hover:bg-[#081631]">Get Started</a>
-          <a href="#" className="flex flex-row items-center rounded-[60px] bg-[#081631] px-6 py-4 font-bold text-white">
+          <a href="#" className="rounded-[60px] bg-white px-6 py-4 text-center font-bold text-blue transition hover:bg-[#081631]">Get Started</a>
+          <a href="#" className="flex flex-row items-center rounded-[60px] bg-violent px-6 py-4 font-bold text-white">
             <div className="mr-2 flex w-5 flex-col items-center">
               <FcBarChart />
             </div>

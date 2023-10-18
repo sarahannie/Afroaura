@@ -105,14 +105,14 @@ export default function NavbarMain() {
              
               <a
                 href="#"
-                className="relative inline-flex h-10 w-10 items-center justify-center rounded-full text-lg text-blue-600"
+                className="relative inline-flex h-10 w-10 items-center justify-center rounded-full text-lg text-[#7f0577]"
               >
                  <MdOutlineFavorite />
                 
               </a>
               <a
                 href="#"
-                className="relative inline-flex h-10 w-10 items-center justify-center rounded-full text-lg text-blue-600"
+                className="relative inline-flex h-10 w-10 items-center justify-center rounded-full text-lg text-[#7f0577]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -17,6 +17,17 @@ module.exports = {
     '2xl': '1536px',
   },
   theme: {
+    colors: {
+      'black': 'black',
+      'white': 'white',
+      'blue': '#7f0577',
+      'violent':'#a4519f',
+      'yellow': '#d140c81a',
+      'purple':"#d140c8",
+      'pink': '#f457ea',
+      'green':"#fe14ef",
+      'red': '#f6e1f4',
+    },
     extend: {},
   },
   darkMode: "class",
