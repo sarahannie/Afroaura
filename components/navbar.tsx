@@ -33,7 +33,7 @@ export const Navbar = () => {
             <input
               id="search-chats"
               type="text"
-              className="w-full rounded-lg border border-slate-300 bg-slate-50 p-3 pr-40 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200"
+              className="w-full rounded-lg border border-blue bg-slate-50 p-3 pr-40 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200"
               placeholder="Search..."
               required
               value={searchTerm}

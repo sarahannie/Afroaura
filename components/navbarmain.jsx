@@ -46,15 +46,15 @@ export default function NavbarMain() {
               <div className={`absolute top-1/2 left-1/2 w-6 -translate-x-1/2 -translate-y-1/2 transform `}>
                 <span
                   aria-hidden="true"
-                  className="absolute block h-0.5 w-9/12 -translate-y-2 transform rounded-full bg-slate-900 transition-all duration-300"
+                  className="absolute block h-0.5 w-9/12 -translate-y-2 transform rounded-full bg-blue transition-all duration-300"
                 ></span>
                 <span
                   aria-hidden="true"
-                  className="absolute block h-0.5 w-6 transform rounded-full bg-slate-900 transition duration-300"
+                  className="absolute block h-0.5 w-6 transform rounded-full bg-blue transition duration-300"
                 ></span>
                 <span
                   aria-hidden="true"
-                  className="absolute block h-0.5 w-1/2 origin-top-left translate-y-2 transform rounded-full bg-slate-900 transition-all duration-300"
+                  className="absolute block h-0.5 w-1/2 origin-top-left translate-y-2 transform rounded-full bg-blue transition-all duration-300"
                 ></span>
               </div>
             </button>
@@ -64,7 +64,7 @@ export default function NavbarMain() {
               aria-label="Select page"
               className={`absolute top-0 left-0 z-[-1] h-[28.5rem] lg:w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain  px-8 pb-12 pt-24 font-medium lg:transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${
                 isToggleOpen
-                  ? `visible transform translate-r-full transition-transformn duration-300  opacity-1 bg-[#020d24]  w-[50%]  `
+                  ? `visible transform translate-r-full transition-transformn duration-300  opacity-1 bg-violent  w-[50%]  `
                   : "invisible opacity-0"
               }`}
             >
@@ -83,7 +83,7 @@ export default function NavbarMain() {
                   role="menuitem"
                   aria-current="page"
                   aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 lg:text-blue-800 text-white  transition-colors duration-300 hover:text-blue-600 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 lg:text-black text-white  transition-colors duration-300 hover:text-blue-600 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8"
                   href="#"
                 >
                   <span>Account</span>
@@ -116,7 +116,7 @@ export default function NavbarMain() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
+                  className="h-5 w-5 "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -132,7 +132,7 @@ export default function NavbarMain() {
                     d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
                   />
                 </svg>
-                <span className="absolute -top-1.5 -right-1.5 inline-flex items-center justify-center gap-1 rounded-full border-2 border-white bg-pink-500 px-1.5 text-sm text-white">
+                <span className="absolute -top-1.5 -right-1.5 inline-flex items-center justify-center gap-1 rounded-full border-2 border-violent bg-pink-500 px-1.5 text-sm text-blue">
                   2<span className="sr-only"> new emails </span>
                 </span>
               </a>
