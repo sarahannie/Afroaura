@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect } from "react"
-import Glide, { Options } from "@glidejs/glide";
+import Glide, { Controls, Breakpoints } from '@glidejs/glide/dist/glide.modular.esm'
 import { FaStar } from 'react-icons/fa';
 import Image from 'next/image';
 
@@ -26,7 +26,7 @@ export default function CarouselIndicatorsControlsInside() {
           perView: 1,
         },
       },
-    }).mount()
+    }).mount({ Controls, Breakpoints })
 
     return () => {
       slider.destroy()
@@ -45,7 +45,7 @@ export default function CarouselIndicatorsControlsInside() {
         {/*    <!-- Slides --> */}
         <div className="overflow-hidden mr-[5rem] ml-[5rem]" data-glide-el="track">
             
-          <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]  relative flex w-full overflow-hidden p-0">
+          <div className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]  relative flex w-full overflow-hidden p-0">
             
             <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
    
@@ -296,7 +296,7 @@ export default function CarouselIndicatorsControlsInside() {
    </div>
             </div>
             
-          </ul>
+          </div>
         </div>
         {/*    <!-- Controls --> */}
         <div

@@ -26,3 +26,20 @@
   .sidenav a:hover {
     color: #f1f1f1;
   }
+
+  .slidingcontent {
+    width: 50vw; /* Half of the screen width */
+    right: 0; /* Start from the right edge */
+    position: absolute;
+    top: 0;
+    transform: translateX(100%); /* Initially off-screen to the right */
+    transition: transform 0.3s; /* Smooth transition effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  /* .sliding-content.visible {
+    transform: translateX(0); 
+  } */

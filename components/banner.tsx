@@ -7,7 +7,7 @@ import { FcBarChart } from 'react-icons/fc';
 export default function Banner() {
   return (
     
-    <Carousel autoPlay showStatus={false} showArrows={false}  className={style.ban} showIndicators={false}  dynamicHeight={false}  >
+    <Carousel autoPlay showStatus={false} showArrows={false}  className={style.ban} showIndicators={false} showThumbs={false}  dynamicHeight={false}  >
         <div>
         <header className={"block overflow-hidden bg-[#020d24] bg-cover bg-center "} style={{backgroundImage: "url('https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg')"}}>
   {/* <!-- Container --> */}
