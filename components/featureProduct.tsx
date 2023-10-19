@@ -10,12 +10,12 @@ const FeatureProduct = () => {
   <section className="text-gray-600 body-font bg-red">
   <div className="container px-18 lg:pt-9 pt-5 pb-10 mx-auto justify-center">
   <div className="flex flex-wrap  justify-between  pb-2 bg-red1 ml-12 mr-12">
-  <h3 className="lg:ml-10 lg:text-3xl font-bold leading-none pt-3 pl-2 text-2xl">
+  <h3 className="lg:ml-10 lg:text-3xl font-bold leading-none pt-3 pl-2 text-xl">
     Feature Products
   </h3>
   <a
     href="#"
-    className="block mr-14 pb-1 mt-6 text-base font-black text-black hover:text-violent uppercase  hover:border-blue-600"
+    className="block lg:mr-14 mr-2 pb-1 lg:mt-6 mt-2.5 text-base font-black text-black hover:text-violent uppercase  hover:border-blue-600"
   >
     <button className='flex gap-1'>view more <FaGreaterThan className='mt-1.5'/></button>
     
