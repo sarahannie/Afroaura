@@ -52,7 +52,7 @@ export const Navbar = () => {
       </div>
       <div className={style.btn}>
         <ThemeSwitch />
-        <Button  radius="none" variant="bordered" className='hidden lg:block border-[#7f0577] text-[#7f0577]'>
+        <Button  radius="none" variant="bordered" className=' border-[#7f0577] text-[#7f0577]'>
           Signup
         </Button>
       </div>
