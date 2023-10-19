@@ -1,222 +1,225 @@
 "use client"
 import Image from 'next/image'
 import React from 'react'
-import {FaStar} from 'react-icons/fa'
+import {FaGreaterThan, FaStar} from 'react-icons/fa'
 
 const FeatureProduct = () => {
   
   return (
     <>
-  <section className="text-gray-600 body-font">
+  <section className="text-gray-600 body-font bg-red">
   <div className="container px-18 lg:pt-9 pt-5 pb-10 mx-auto justify-center">
-  <div className="flex flex-wrap  justify-between  mb-8">
-  <h3 className="lg:ml-10 lg:text-3xl font-bold leading-none pt-3  text-2xl">
+  <div className="flex flex-wrap  justify-between  pb-2 bg-red1 ml-12 mr-12">
+  <h3 className="lg:ml-10 lg:text-3xl font-bold leading-none pt-3 pl-2 text-2xl">
     Feature Products
   </h3>
   <a
     href="#"
-    className="block mr-5 pb-1 mt-2 text-base font-black text-purple hover:text-violent uppercase border-b border-transparent hover:border-blue-600"
+    className="block mr-14 pb-1 mt-6 text-base font-black text-black hover:text-violent uppercase  hover:border-blue-600"
   >
-    <button>see more -&gt;</button>
+    <button className='flex gap-1'>view more <FaGreaterThan className='mt-1.5'/></button>
     
   </a>
 </div>
 
-    <div className="flex flex-wrap justify-center -m-4 gap-12">
+    <div className="flex flex-wrap justify-center -m-1 ml-12 mr-12 gap-4  pt-4 pb-4 bg-white">
       
-      
-    <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
- 
- <Image
- width={30}
- height={30}
-   className="h-48 w-full object-cover object-end"
-   src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
-   alt="Home in Countryside"
- />
- <div className="p-6">
-   <div className="flex items-baseline dark:text-black">
-     <span className="inline-block bg-red text-black py-1 px-4 text-xs rounded-full uppercase font-semibold tracking-wide">
-       Hot
-     </span>
-     <div className="ml-2 text-black text-xs uppercase font-semibold tracking-wide">
-       1 Short • 2 Sock
-     </div>
-   </div>
-   <h4 className="mt-2 font-semibold text-black text-lg leading-tight truncate">
-     Kids_short
-   </h4>
-   <div className="mt-1 flex justify-between">
-     <div className=" flex text-black flex-col">
-     <span>$1,900.00</span>
-     <span><del>$3,900.00</del></span>
-     </div>
-     <div><span className="ml-2 text-black text-sm">34 reviews</span></div>
-    
-     
-   </div>
-   <div className="mt-2 flex text-[#020d24] font-semibold justify-between ">
-       <div className=" flex  ">
-         <span className='flex mt-2'>
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar /> 
-         </span>
+    <div className="w-52 h-80 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+      <a href="#">
+        <img
+          src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt="Product"
+          className="h-50 w-52 object-cover rounded-t-xl"
+        />
+        <div className="px-4 py-3 w-52">
+          <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+          <p className="text-lg font-bold text-black truncate block capitalize">
+            Product Name
+          </p>
+          <div className="flex items-center">
+            <p className="text-lg font-semibold text-black cursor-auto my-3">
+              $149
+            </p>
+            <del>
+              <p className="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+            </del>
+            <div className="ml-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={20}
+                height={20}
+                fill="currentColor"
+                className="bi bi-bag-plus"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
+                />
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+              </svg>
+            </div>
+          </div>
         </div>
-          <div>
-            <span className="block bg-blue   rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart
-            </span>
-          </div> 
-         
-     </div>
- </div>
-   </div>
-    <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
- 
- <Image
- width={30}
- height={30}
-   className="h-48 w-full object-cover object-end"
-   src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
-   alt="Home in Countryside"
- />
- <div className="p-6">
-   <div className="flex items-baseline dark:text-black">
-     <span className="inline-block bg-red text-black py-1 px-4 text-xs rounded-full uppercase font-semibold tracking-wide">
-       Hot
-     </span>
-     <div className="ml-2 text-black text-xs uppercase font-semibold tracking-wide">
-       1 Short • 2 Sock
-     </div>
-   </div>
-   <h4 className="mt-2 font-semibold text-black text-lg leading-tight truncate">
-     Kids_short
-   </h4>
-   <div className="mt-1 flex justify-between">
-     <div className=" flex text-black flex-col">
-     <span>$1,900.00</span>
-     <span><del>$3,900.00</del></span>
-     </div>
-     <div><span className="ml-2 text-black text-sm">34 reviews</span></div>
-    
-     
-   </div>
-   <div className="mt-2 flex text-[#020d24] font-semibold justify-between ">
-       <div className=" flex  ">
-         <span className='flex mt-2'>
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar /> 
-         </span>
+      </a>
+    </div>
+    <div className="w-52 h-80 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+      <a href="#">
+        <img
+          src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt="Product"
+          className="h-50 w-52 object-cover rounded-t-xl"
+        />
+        <div className="px-4 py-3 w-52">
+          <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+          <p className="text-lg font-bold text-black truncate block capitalize">
+            Product Name
+          </p>
+          <div className="flex items-center">
+            <p className="text-lg font-semibold text-black cursor-auto my-3">
+              $149
+            </p>
+            <del>
+              <p className="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+            </del>
+            <div className="ml-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={20}
+                height={20}
+                fill="currentColor"
+                className="bi bi-bag-plus"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
+                />
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+              </svg>
+            </div>
+          </div>
         </div>
-          <div>
-            <span className="block bg-blue   rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart
-            </span>
-          </div> 
-         
-     </div>
- </div>
-   </div>
-    <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
- 
- <Image
- width={30}
- height={30}
-   className="h-48 w-full object-cover object-end"
-   src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
-   alt="Home in Countryside"
- />
- <div className="p-6">
-   <div className="flex items-baseline dark:text-black">
-     <span className="inline-block bg-red text-black py-1 px-4 text-xs rounded-full uppercase font-semibold tracking-wide">
-       Hot
-     </span>
-     <div className="ml-2 text-black text-xs uppercase font-semibold tracking-wide">
-       1 Short • 2 Sock
-     </div>
-   </div>
-   <h4 className="mt-2 font-semibold text-black text-lg leading-tight truncate">
-     Kids_short
-   </h4>
-   <div className="mt-1 flex justify-between">
-     <div className=" flex text-black flex-col">
-     <span>$1,900.00</span>
-     <span><del>$3,900.00</del></span>
-     </div>
-     <div><span className="ml-2 text-black text-sm">34 reviews</span></div>
-    
-     
-   </div>
-   <div className="mt-2 flex text-[#020d24] font-semibold justify-between ">
-       <div className=" flex  ">
-         <span className='flex mt-2'>
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar /> 
-         </span>
+      </a>
+    </div>
+    <div className="w-52 h-80 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+      <a href="#">
+        <img
+          src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt="Product"
+          className="h-50 w-52 object-cover rounded-t-xl"
+        />
+        <div className="px-4 py-3 w-52">
+          <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+          <p className="text-lg font-bold text-black truncate block capitalize">
+            Product Name
+          </p>
+          <div className="flex items-center">
+            <p className="text-lg font-semibold text-black cursor-auto my-3">
+              $149
+            </p>
+            <del>
+              <p className="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+            </del>
+            <div className="ml-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={20}
+                height={20}
+                fill="currentColor"
+                className="bi bi-bag-plus"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
+                />
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+              </svg>
+            </div>
+          </div>
         </div>
-          <div>
-            <span className="block bg-blue   rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart
-            </span>
-          </div> 
-         
-     </div>
- </div>
-   </div>
-    <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
- 
- <Image
- width={30}
- height={30}
-   className="h-48 w-full object-cover object-end"
-   src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
-   alt="Home in Countryside"
- />
- <div className="p-6">
-   <div className="flex items-baseline dark:text-black">
-     <span className="inline-block bg-red text-black py-1 px-4 text-xs rounded-full uppercase font-semibold tracking-wide">
-       Hot
-     </span>
-     <div className="ml-2 text-black text-xs uppercase font-semibold tracking-wide">
-       1 Short • 2 Sock
-     </div>
-   </div>
-   <h4 className="mt-2 font-semibold text-black text-lg leading-tight truncate">
-     Kids_short
-   </h4>
-   <div className="mt-1 flex justify-between">
-     <div className=" flex text-black flex-col">
-     <span>$1,900.00</span>
-     <span><del>$3,900.00</del></span>
-     </div>
-     <div><span className="ml-2 text-black text-sm">34 reviews</span></div>
-    
-     
-   </div>
-   <div className="mt-2 flex text-[#020d24] font-semibold justify-between ">
-       <div className=" flex  ">
-         <span className='flex mt-2'>
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar /> 
-         </span>
+      </a>
+    </div>
+    <div className="w-52 h-80 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+      <a href="#">
+        <img
+          src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt="Product"
+          className="h-50 w-52 object-cover rounded-t-xl"
+        />
+        <div className="px-4 py-3 w-52">
+          <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+          <p className="text-lg font-bold text-black truncate block capitalize">
+            Product Name
+          </p>
+          <div className="flex items-center">
+            <p className="text-lg font-semibold text-black cursor-auto my-3">
+              $149
+            </p>
+            <del>
+              <p className="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+            </del>
+            <div className="ml-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={20}
+                height={20}
+                fill="currentColor"
+                className="bi bi-bag-plus"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
+                />
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+              </svg>
+            </div>
+          </div>
         </div>
-          <div>
-            <span className="block bg-blue   rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart
-            </span>
-          </div> 
-         
-     </div>
- </div>
-   </div>
+      </a>
+    </div>
+    <div className="w-52 h-80 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+      <a href="#">
+        <img
+          src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt="Product"
+          className="h-50 w-52 object-cover rounded-t-xl"
+        />
+        <div className="px-4 py-3 w-52">
+          <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+          <p className="text-lg font-bold text-black truncate block capitalize">
+            Product Name
+          </p>
+          <div className="flex items-center">
+            <p className="text-lg font-semibold text-black cursor-auto my-3">
+              $149
+            </p>
+            <del>
+              <p className="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+            </del>
+            <div className="ml-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={20}
+                height={20}
+                fill="currentColor"
+                className="bi bi-bag-plus"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
+                />
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    
    
 
 
