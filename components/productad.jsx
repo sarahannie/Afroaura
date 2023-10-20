@@ -4,18 +4,18 @@ import React from 'react'
 
 function Productad() {
   return (
-    <div>
-    <div className='bg-primary'>
-   <main className="dark:bg-black bg-white relative overflow-hidden h-screen">
-    <div className="bg-white dark:bg-gray-800 flex ml-[5rem] mr-[5rem] mt-[2rem] bg-white border border-gray relative z-20 overflow-hidden">
+    <>
+    <section className='bg-red pb-5 pt-6'>
+   <main className=" bg-white dark:bg-black  relative overflow-hidden  mr-12 ml-12">
+    <div className="bg-blue dark:bg-gray-800 flex ml-[5rem] mr-[5rem] mb-[2rem] mt-[2rem]  border border-gray relative z-20 overflow-hidden">
     <div className="container  px-6 flex relative py-6">
       <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
         <span className="w-20 h-2 bg-gray-800 dark:bg-white mb-12"></span>
-        <h1 className="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-gray-800">
+        <h1 className="font-bebas-neue uppercase text-6xl sm:text-8xl  flex flex-col leading-none dark:text-white text-white">
           Be on
           <span className="text-5xl sm:text-7xl">Time</span>
         </h1>
-        <p className="text-sm sm:text-base text-gray-700 dark:text-white">
+        <p className="text-sm sm:text-base text-white dark:text-white">
           Dimension of reality that makes change possible and understandable. An
           indefinite and homogeneous environment in which natural events and
           human existence take place.
@@ -29,7 +29,7 @@ function Productad() {
           </a>
           <a
             href="#"
-            className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500 dark:text-white hover:bg-pink-500 hover:text-white text-md"
+            className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-white text-white dark:text-white hover:bg-pink-500 hover:text-white text-md"
           >
             Read more
           </a>
@@ -41,6 +41,8 @@ function Productad() {
           height={500}
           src="https://www.tailwind-kit.com/images/object/10.png"
           className="max-w-xs md:max-w-sm m-auto"
+          placeholder='blur'
+          blurDataURL="https://www.tailwind-kit.com/images/object/10.png"
           alt=''
         />
       </div>
@@ -48,8 +50,8 @@ function Productad() {
   </div>
 </main>
 
-        </div>
-    </div>
+        </section>
+    </>
   )
 }
 

@@ -1,22 +1,23 @@
 "use client"
 import React from 'react';
 import style from './topad.module.css'
-import { FaStar } from 'react-icons/fa';
+import { FaGreaterThan, FaStar } from 'react-icons/fa';
+import {ImPriceTags} from 'react-icons/im'
 import Image from 'next/image';
 
 const TopAd = () => {
   return (
     <>
-        <div className='flex text-white bg-blue py-7 justify-between '>
-            <div><FaStar/></div>
-            <div className='lg:text-2xl text-xl'> Remaining hours:  <span className='lg:text-3xl text-2xl'>10h:30m:21s</span></div>
-            <div>SEE ALL-&gt;</div>
+    <section className='bg-red dark:bg-black pb-3'>
+    <div className='flex text-white bg-blue py-3 justify-between mr-12 ml-12'>
+            <div className='flex text-xl pl-2'><ImPriceTags className='text-3xl'/> Flash Sales</div>
+            <div className='lg:text-xl text-xl'> Remaining hours:  <span className='lg:text-xl text-xl'>10h:30m:21s</span></div>
+            <div className='flex gap-1 pr-2'>View all <FaGreaterThan className='mt-1.5'/></div>
         </div>
-        <section className="text-gray-600 body-font">
-            <div className="container px-18 pt-12 pb-10 mx-auto justify-center">
+        <section className="text-gray-600 body-font mr-12 ml-12 bg-white">
+            <div className="container px-18 pt-12 pb-10  justify-center">
             <div className="flex flex-wrap justify-center -m-4 gap-12">
             <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
- 
  <Image
  width={30}
  height={30}
@@ -210,6 +211,8 @@ const TopAd = () => {
             </div>
             </div>
         </section>
+    </section>
+       
     </>
     
   )

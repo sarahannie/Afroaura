@@ -17,13 +17,14 @@ const FeatureProduct = () => {
     href="#"
     className="block lg:mr-14 mr-2 pb-1 lg:mt-6 mt-2.5 text-base font-black text-black hover:text-violent uppercase  hover:border-blue-600"
   >
-    <button className='flex gap-1'>view more <FaGreaterThan className='mt-1.4'/></button>
+    <button className='flex gap-1'>view more <FaGreaterThan className='mt-1.5'/></button>
     
   </a>
 </div>
 
     <div className="flex flex-wrap justify-center -m-1 ml-12 mr-12 gap-4  pt-4 pb-4 bg-white">
       
+    
     <div className="w-52 h-80 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
       <a href="#">
         <img
