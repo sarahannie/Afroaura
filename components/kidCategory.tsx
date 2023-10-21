@@ -27,14 +27,14 @@ const KidCategory = () => {
        
       ];
   return (
-    <section className="text-gray-600 body-font">
-    <div className="container px-18 pt-[60px] pb-10 mx-auto justify-center">
-    <div className="flex flex-wrap  justify-between  mb-8">
-    <h3 className="ml-10 text-3xl font-bold leading-none md:text-3xl dark:text-white">
-      Kids Category
+    <section className="text-gray-600 body-font bg-red ">
+    <div className="container  pt-[20px] pb-10  justify-center mr-22 ">
+    <div className="flex flex-wrap  justify-between ml-10 py-3 bg-red1 ml-12 mr-12">
+    <h3 className="ml-10 text-3xl font-bold leading-none md:text-3xl">
+       Kid&apos;s Category
     </h3>
     </div>
-    <div className="gap-2 grid grid-cols-2 sm:grid-cols-4 pt-1 px-6 justify-center gap-12">
+    <div className="gap-2 grid grid-cols-1 sm:grid-cols-4 py-4 px-6 justify-center gap-12 ml-12 mr-12 bg-white">
     {list.map((item, index) => (
         <Card shadow="sm" key={index} isPressable onPress={() => console.log("item pressed")}>
           <CardBody className="overflow-visible p-0 ">

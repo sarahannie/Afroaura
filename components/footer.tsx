@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       {/*    <!-- Component: Dark Theme Footer --> */}
-      <footer className="w-full text-slate-400">
+      <footer className="w-full bg-blue text-white">
         {/*      <!-- Main footer --> */}
         <div className="pt-16 pb-12 text-sm  border-slate-900 bg-slate-800">
           <div className="container px-6 mx-auto">
@@ -13,12 +13,12 @@ export default function Footer() {
                 className="col-span-2 md:col-span-4 lg:col-span-3"
                 aria-labelledby="footer-product-dark"
               >
-                <h3
+                <h4
                   className="mb-6 text-base font-medium text-white"
                   id="footer-product-dark"
                 >
                   Product
-                </h3>
+                </h4>
                 <ul>
                   <li className="mb-2 leading-6">
                     <a
@@ -58,12 +58,12 @@ export default function Footer() {
                 className="col-span-2 md:col-span-4 lg:col-span-3"
                 aria-labelledby="footer-docs-dark"
               >
-                <h3
+                <h4
                   className="mb-6 text-base font-medium text-white"
                   id="footer-docs-dark"
                 >
                   Docs & help
-                </h3>
+                </h4>
                 <ul>
                   <li className="mb-2 leading-6">
                     <a
@@ -111,12 +111,12 @@ export default function Footer() {
                 className="col-span-2 md:col-span-4 lg:col-span-3"
                 aria-labelledby="footer-about-dark"
               >
-                <h3
+                <h4
                   className="mb-6 text-base font-medium text-white"
                   id="footer-about-dark"
                 >
                   About us
-                </h3>
+                </h4>
                 <ul>
                   <li className="mb-2 leading-6">
                     <a
@@ -164,12 +164,12 @@ export default function Footer() {
                 className="col-span-2 md:col-span-4 lg:col-span-3"
                 aria-labelledby="footer-get-in-touch-dark"
               >
-                <h3
+                <h4
                   className="mb-6 text-base font-medium text-white"
                   id="footer-get-in-touch-dark"
                 >
                   Get in touch
-                </h3>
+                </h4>
                 <ul>
                   <li className="mb-2 leading-6">
                     <a

@@ -9,7 +9,7 @@ export default function CarouselIndicatorsControlsInside() {
     const slider = new Glide(".glide-03", {
       type: "carousel",
       focusAt: "center",
-      perView: 3,
+      perView: 5,
       autoplay: 3000,
       animationDuration: 700,
       gap: 24,
@@ -35,266 +35,60 @@ export default function CarouselIndicatorsControlsInside() {
 
   return (
     <>
-      {/*<!-- Component: Carousel with indicators & controls inside --> */}
-      <div className="glide-03 relative w-full mb-6">
-      <div className="flex flex-wrap  justify-between  mb-8">
-          <h3 className="ml-10 text-3xl font-bold leading-none md:text-3xl">
+    <section className="bg-red pb-5 pt-3">
+    <div className="glide-03 relative w-full mb-6 ">
+      <div className="flex flex-wrap  justify-between bg-violent py-2 mr-12 ml-12">
+          <h5 className="ml-10 text-3xl font-bold leading-none md:text-3xl text-white">
             $5000 Products
-          </h3>
+          </h5>
         </div>
         {/*    <!-- Slides --> */}
-        <div className="overflow-hidden mr-[5rem] ml-[5rem]" data-glide-el="track">
+        <div className="overflow-hidden mr-12 ml-12 py-4 bg-white" data-glide-el="track">
             
-          <div className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]  relative flex w-full overflow-hidden p-0">
+          <div className="whitespace-no-wrap flex-no-wrap  mr-1 ml-1 [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]  relative flex w-full overflow-hidden p-0">
             
-            <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
-   
-   <Image
-    height={18}
-    width={18}
-     className="h-48 w-full object-cover object-end"
-     src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
-     alt="Home in Countryside"
-   />
-   <div className="p-6">
-     <div className="flex items-baseline">
-       <span className="inline-block bg-[#D1E4FC] text-black py-1 px-4 text-xs rounded-full uppercase font-semibold tracking-wide">
-         Hot
-       </span>
-       <div className="ml-2 text-gray-600 text-xs uppercase font-semibold tracking-wide">
-         1 Short • 2 Sock
-       </div>
-     </div>
-     <h4 className="mt-2 font-semibold text-lg leading-tight truncate">
-       Kids_short
-     </h4>
-     <div className="mt-1 flex justify-between">
-       <div className=" flex flex-col">
-       <span>$1,900.00</span>
-       <span><del>$3,900.00</del></span>
-       </div>
-       <div><span className="ml-2 text-gray-600 text-sm">34 reviews</span></div>
-      
-       
-     </div>
-     <div className="mt-2 flex text-[#020d24] font-semibold justify-between ">
-       <div className=" flex  ">
-         <span className='flex mt-2'>
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar /> 
-         </span>
-        </div>
-          <div>
-            <span className="block bg-primary  rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart
-            </span>
-          </div> 
-         
-     </div>
-   </div>
+          <div className="w-52 h-80 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+      <a href="#">
+        <img
+          src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt="Product"
+          className="h-50 w-52 object-cover rounded-t-xl"
+        />
+        <div className="px-4 py-3 w-52">
+          <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+          <p className="text-lg font-bold text-black truncate block capitalize">
+            Product Name
+          </p>
+          <div className="flex items-center">
+            <p className="text-lg font-semibold text-black cursor-auto my-3">
+              $149
+            </p>
+            <del>
+              <p className="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+            </del>
+            <div className="ml-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={20}
+                height={20}
+                fill="currentColor"
+                className="bi bi-bag-plus"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
+                />
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+              </svg>
             </div>
-            
-            
-            <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
-   
-   <Image
-    height={18}
-    width={18}
-     className="h-48 w-full object-cover object-end"
-     src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
-     alt="Home in Countryside"
-   />
-   <div className="p-6">
-     <div className="flex items-baseline">
-       <span className="inline-block bg-[#D1E4FC] text-black py-1 px-4 text-xs rounded-full uppercase font-semibold tracking-wide">
-         Hot
-       </span>
-       <div className="ml-2 text-gray-600 text-xs uppercase font-semibold tracking-wide">
-         1 Short • 2 Sock
-       </div>
-     </div>
-     <h4 className="mt-2 font-semibold text-lg leading-tight truncate">
-       Kids_short
-     </h4>
-     <div className="mt-1 flex justify-between">
-       <div className=" flex flex-col">
-       <span>$1,900.00</span>
-       <span><del>$3,900.00</del></span>
-       </div>
-       <div><span className="ml-2 text-gray-600 text-sm">34 reviews</span></div>
-      
-       
-     </div>
-     <div className="mt-2 flex text-[#020d24] font-semibold justify-between ">
-       <div className=" flex  ">
-         <span className='flex mt-2'>
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar /> 
-         </span>
+          </div>
         </div>
-          <div>
-            <span className="block bg-primary  rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart
-            </span>
-          </div> 
-         
-     </div>
-   </div>
-            </div>
+      </a>
+          </div>
             
             
-            <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
-   
-   <Image
-    height={18}
-    width={18}
-     className="h-48 w-full object-cover object-end"
-     src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
-     alt="Home in Countryside"
-   />
-   <div className="p-6">
-     <div className="flex items-baseline">
-       <span className="inline-block bg-[#D1E4FC] text-black py-1 px-4 text-xs rounded-full uppercase font-semibold tracking-wide">
-         Hot
-       </span>
-       <div className="ml-2 text-gray-600 text-xs uppercase font-semibold tracking-wide">
-         1 Short • 2 Sock
-       </div>
-     </div>
-     <h4 className="mt-2 font-semibold text-lg leading-tight truncate">
-       Kids_short
-     </h4>
-     <div className="mt-1 flex justify-between">
-       <div className=" flex flex-col">
-       <span>$1,900.00</span>
-       <span><del>$3,900.00</del></span>
-       </div>
-       <div><span className="ml-2 text-gray-600 text-sm">34 reviews</span></div>
-      
-       
-     </div>
-     <div className="mt-2 flex text-[#020d24] font-semibold justify-between ">
-       <div className=" flex  ">
-         <span className='flex mt-2'>
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar /> 
-         </span>
-        </div>
-          <div>
-            <span className="block bg-primary  rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart
-            </span>
-          </div> 
-         
-     </div>
-   </div>
-            </div>
             
-            
-            <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
-   
-   <Image
-    height={18}
-    width={18}
-     className="h-48 w-full object-cover object-end"
-     src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
-     alt="Home in Countryside"
-   />
-   <div className="p-6">
-     <div className="flex items-baseline">
-       <span className="inline-block bg-[#D1E4FC] text-black py-1 px-4 text-xs rounded-full uppercase font-semibold tracking-wide">
-         Hot
-       </span>
-       <div className="ml-2 text-gray-600 text-xs uppercase font-semibold tracking-wide">
-         1 Short • 2 Sock
-       </div>
-     </div>
-     <h4 className="mt-2 font-semibold text-lg leading-tight truncate">
-       Kids_short
-     </h4>
-     <div className="mt-1 flex justify-between">
-       <div className=" flex flex-col">
-       <span>$1,900.00</span>
-       <span><del>$3,900.00</del></span>
-       </div>
-       <div><span className="ml-2 text-gray-600 text-sm">34 reviews</span></div>
-      
-       
-     </div>
-     <div className="mt-2 flex text-[#020d24] font-semibold justify-between ">
-       <div className=" flex  ">
-         <span className='flex mt-2'>
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar /> 
-         </span>
-        </div>
-          <div>
-            <span className="block bg-primary  rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart
-            </span>
-          </div> 
-         
-     </div>
-   </div>
-            </div>
-            
-            
-            <div className="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
-   
-   <Image
-    height={18}
-    width={18}
-     className="h-48 w-full object-cover object-end"
-     src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
-     alt="Home in Countryside"
-   />
-   <div className="p-6">
-     <div className="flex items-baseline">
-       <span className="inline-block bg-[#D1E4FC] text-black py-1 px-4 text-xs rounded-full uppercase font-semibold tracking-wide">
-         Hot
-       </span>
-       <div className="ml-2 text-gray-600 text-xs uppercase font-semibold tracking-wide">
-         1 Short • 2 Sock
-       </div>
-     </div>
-     <h4 className="mt-2 font-semibold text-lg leading-tight truncate">
-       Kids_short
-     </h4>
-     <div className="mt-1 flex justify-between">
-       <div className=" flex flex-col">
-       <span>$1,900.00</span>
-       <span><del>$3,900.00</del></span>
-       </div>
-       <div><span className="ml-2 text-gray-600 text-sm">34 reviews</span></div>
-      
-       
-     </div>
-     <div className="mt-2 flex text-[#020d24] font-semibold justify-between ">
-       <div className=" flex  ">
-         <span className='flex mt-2'>
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar />
-           <FaStar /> 
-         </span>
-        </div>
-          <div>
-            <span className="block bg-primary  rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">Add Cart
-            </span>
-          </div> 
-         
-     </div>
-   </div>
-            </div>
             
           </div>
         </div>
@@ -381,7 +175,8 @@ export default function CarouselIndicatorsControlsInside() {
           </button>
         </div>
       </div>
-      {/*<!-- End Carousel with indicators & controls inside --> */}
+    </section>
+      
     </>
   )
 }

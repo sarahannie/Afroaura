@@ -54,7 +54,7 @@ export default function Banner() {
                   </a>
                   <a
                     href="#"
-                    className="flex flex-row items-center rounded-[60px] bg-violent px-6 py-4 font-bold text-white"
+                    className="flex flex-row items-center rounded-[60px] border-2 border-white text-white  px-6 py-4 font-bold text-white"
                   >
                     <div className="mr-2 flex w-5 flex-col items-center">
                       <FcBarChart />
@@ -97,7 +97,7 @@ export default function Banner() {
                   <p className="mt-2 text-sm text-neutral-100 md:text-lg">
                     For limited time only!
                   </p>
-                  <button className="text-lg md:text-2xl bg-white text-blue py-2 px-5 mt-10 hover:bg-zinc-800">
+                  <button className="text-lg md:text-2xl font-bold rounded-[60px] bg-white text-blue py-3 px-7 mt-10 hover:bg-zinc-800">
                     Shop Now
                   </button>
                 </div>
@@ -156,7 +156,7 @@ export default function Banner() {
                   </a>
                   <a
                     href="#"
-                    className="flex flex-row items-center rounded-[60px] bg-violent px-6 py-4 font-bold text-white"
+                    className="flex flex-row items-center rounded-[60px] border-2 border-white text-white px-6 py-4 font-bold text-white"
                   >
                     <div className="mr-2 flex w-5 flex-col items-center">
                       <FcBarChart />
@@ -213,7 +213,7 @@ export default function Banner() {
                   </a>
                   <a
                     href="#"
-                    className="flex flex-row items-center rounded-[60px] bg-violent px-6 py-4 font-bold text-white"
+                    className="flex flex-row items-center rounded-[60px] border-2 border-white text-white px-6 py-4 font-bold text-white"
                   >
                     <div className="mr-2 flex w-5 flex-col items-center">
                       <FcBarChart />

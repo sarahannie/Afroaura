@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Newletter = () => {
     return (
-        <section className="items-center mt-12 border-t border-slate-900 bg-slate-800 max-w-screen-xl mx-auto px-4 gap-4 md:flex md:px-8 xl:gap-12">
+        <section className="items-center text-white  border-t border-slate-900 bg-blue max-w-screen-xl mx-auto px-4 gap-4 md:flex md:px-8 xl:gap-12">
             <div className="flex-1 ">
             <div className="flex text-white mt-5">
 				<Image src="/img/logo.png" alt="Logo" width={40} height={40} /><span className="pt-2">FROAURA</span>
@@ -26,7 +26,7 @@ const Newletter = () => {
                         className="text-gray-500 w-full p-3 rounded-md border outline-none focus:border-indigo-600"
                     />
                     <button
-                        className="w-full mt-3 px-5 py-3 rounded-md text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 duration-150 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto"
+                        className="w-full mt-3 px-5 py-3 rounded-md text-blue bg-white hover:bg-indigo-500 active:bg-indigo-700 duration-150 outline-none shadow-md focus:shadow-none focus:ring-2 ring-offset-2 ring-indigo-600 sm:mt-0 sm:ml-3 sm:w-auto"
                     >
                         Subscribe
                     </button>

@@ -1,17 +1,55 @@
 "use client"
-import React from 'react';
 import style from './topad.module.css'
 import { FaGreaterThan, FaStar } from 'react-icons/fa';
 import {ImPriceTags} from 'react-icons/im'
 import Image from 'next/image';
+import React,{useEffect,useState} from 'react'
+
 
 const TopAd = () => {
+  const [timeLeft, setTimeLeft] = useState({});
+
+  
+  useEffect(() => {
+    const targetDate = new Date();
+    targetDate.setDate(targetDate.getDate() + 60);
+
+    const calculateTimeLeft = () => {
+      const now = new Date();
+      const difference = targetDate - now;
+      let newTimeLeft = {}; // Create a new object
+
+      if (difference > 0) {
+        newTimeLeft = {
+          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+          minutes: Math.floor((difference / (1000 * 60)) % 60),
+          seconds: Math.floor((difference / 1000) % 60),
+        };
+      }
+
+      return newTimeLeft;
+    };
+
+    const updateCountdown = () => {
+      const newTimeLeft = calculateTimeLeft();
+      setTimeLeft(newTimeLeft);
+    };
+
+    updateCountdown(); // Initial calculation
+
+    const timer = setInterval(updateCountdown, 1000);
+
+    // Clear interval if the component is unmounted
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <>
     <section className='bg-red dark:bg-black pb-3'>
     <div className='flex text-white bg-blue py-3 justify-between mr-12 ml-12'>
             <div className='flex text-xl pl-2'><ImPriceTags className='text-3xl'/> Flash Sales</div>
-            <div className='lg:text-xl text-xl'> Remaining hours:  <span className='lg:text-xl text-xl'>10h:30m:21s</span></div>
+            <div className='lg:text-xl text-xl'> Remaining hours:  <span className='lg:text-xl text-xl'> {timeLeft.days ? `${timeLeft.days} days \: ${timeLeft.hours} hours \: ${timeLeft.minutes} minutes \: ${timeLeft.seconds} seconds` : <span>Time&apos;s up!</span>}</span></div>
             <div className='flex gap-1 pr-2'>View all <FaGreaterThan className='mt-1.5'/></div>
         </div>
         <section className="text-gray-600 body-font mr-12 ml-12 bg-white">

@@ -1,8 +1,12 @@
 "use client"
 import Image from 'next/image'
-import React from 'react'
+
+
 
 function Productad() {
+ 
+
+
   return (
     <>
     <section className='bg-red pb-5 pt-6'>
